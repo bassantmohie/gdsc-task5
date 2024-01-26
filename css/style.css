@@ -1,0 +1,128 @@
+.sheet1 {
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+.l {
+  background-color: rgba(0, 0, 0, 0.322);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+li {
+  list-style: none;
+}
+.n {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.h {
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 250px;
+  font-size: 70px;
+  color: white;
+}
+
+.sheet2 {
+  background-color: black;
+  color: white;
+}
+
+.sh1 {
+  display: flex;
+  text-align: center;
+  padding-top: 5px;
+}
+.flower1 {
+  display: flex;
+  width: 100%;
+  background-color: rgb(252, 232, 229);
+  color: black;
+}
+.flower1 img {
+  width: 100%;
+}
+.sh2 {
+  background-color: black;
+  color: white;
+}
+.pink {
+  color: rgb(240, 9, 97);
+}
+button {
+  background-color: rgb(240, 9, 97);
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 5px;
+}
+.flower3 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 40px;
+}
+.flower3 img {
+  width: 100%;
+}
+.p {
+  margin-left: 50px;
+  color: rgba(255, 255, 255, 0.507);
+}
+.lastimg img {
+  width: 100%;
+}
+.sheet3 {
+  text-align: center;
+  background-color: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.box {
+  transition: 1s;
+}
+.box:hover {
+  transform: scale(1.3);
+}
+.ff {
+  display: flex;
+  justify-content: center;
+}
+.f {
+  background-color: rgba(0, 0, 48, 0.685);
+  color: rgba(255, 255, 255, 0.445);
+  padding: 5px;
+  border-style: ridge;
+  border-color: rgba(255, 255, 255, 0.596);
+  margin: 2px;
+}
